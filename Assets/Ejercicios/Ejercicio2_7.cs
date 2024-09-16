@@ -5,10 +5,10 @@ using UnityEngine;
 public class Ejercicio2_7 : MonoBehaviour
 {
     int oroFarm = 7;
-    //14400
+    int horas = 4;
     void Start()
     {
-        Debug.Log("En 4 horas ha farmeado " + oroFarm * 14400 + " de oro");
+        Debug.Log("En 4 horas ha farmeado " + oroFarm * (horas*3600) + " de oro");
     }
     void Update()
     {
