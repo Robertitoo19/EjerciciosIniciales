@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class Ejercicio4_2 : MonoBehaviour
 {
-    [SerializeField] string nombre;
-    [SerializeField] string apellido1;
-    [SerializeField] string apellido2;
-
-    [SerializeField] int edad;
-
     void Start()
     {
-        ConstruirNombre();
+        Debug.Log(ConstruirNombre("Roberto", "Garzon", "Carrilero", 20));
     }
-    void ConstruirNombre()
+    string ConstruirNombre(string nombre, string apellido1, string apellido2, int edad)
     {
-        Debug.Log("Te llamas " + nombre + apellido1 + apellido2 + " y tienes "+edad+" años");
+        string saludo = ("La persona se llama " + nombre + " " + apellido1 + " " + apellido2 + " y  tiene " + edad + " años");
+        return saludo;
     }
 }
