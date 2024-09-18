@@ -12,11 +12,11 @@ public class Ejercicio2_5 : MonoBehaviour
     void Start()
     {
         vidaPlayer2 = vidaPlayer3;
-        //nuevaVida2 = vidaPlayer2;
+        nuevaVida2 = vidaPlayer2;
         vidaPlayer3 = vidaPlayer1;
         vidaPlayer1 = vidaPlayer4;
-        vidaPlayer4 = vidaPlayer2;
-        Debug.Log("Las nuevas vidas del player 1 son: " + vidaPlayer1 + ", las nuevas vidas del player 2 son: " + /*nuevaVida2*/vidaPlayer2+ ", las nuevas vidas del player 3 son: " + vidaPlayer3 + ", las nuevas vidas del player 4 son: " + vidaPlayer4);
+        vidaPlayer4 = nuevaVida2;
+        Debug.Log("Las nuevas vidas del player 1 son: " + vidaPlayer1 + ", las nuevas vidas del player 2 son: " + vidaPlayer2+ ", las nuevas vidas del player 3 son: " + vidaPlayer3 + ", las nuevas vidas del player 4 son: " + nuevaVida2);
     }
     void Update()
     {
