@@ -145,6 +145,10 @@ GameObject:
   - component: {fileID: 519420041}
   - component: {fileID: 519420042}
   - component: {fileID: 519420044}
+  - component: {fileID: 519420045}
+  - component: {fileID: 519420046}
+  - component: {fileID: 519420047}
+  - component: {fileID: 519420048}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -369,12 +373,68 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 040b673efbbc34546832f6c4a6607fca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   radio: 5
+--- !u!114 &519420045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33cd971a3f3b4249991f84665a2531b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nivel: 1
+--- !u!114 &519420046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56b2c1214788cd40ab52e8aac8d9ef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nivel: 20
+--- !u!114 &519420047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff60c84b978312f40a3988d3b362a553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad1: 1111
+  velocidad2: 111
+  velocidad3: 11111
+--- !u!114 &519420048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9091851766f33d34e90af80947031b68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  H: 13
+  M: 12
+  S: 23
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
