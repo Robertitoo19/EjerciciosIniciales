@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class Ejercicio4_3 : MonoBehaviour
 {
-    /*void Start()
+    void Start()
     {
         Debug.Log(Convertir(4, "dolares"));
     }
     string Convertir(float cantidad, string moneda)
     {
+        string resultado = "";
         if (moneda == "Dolares" || moneda == "dolares")
         {
-            string conversorDolares = (cantidad + moneda + " " + " son " + cantidad * 0.9 + " euros");
-            return conversorDolares;
+            resultado = (cantidad + moneda + " " + " son " + cantidad * 0.9 + " euros");
         }
         if (moneda == "Euros" || moneda == "euros")
         {
-            string conversorEuros = (cantidad + " " + moneda + " son " + cantidad * 1.11 + " dolares");
-            return conversorEuros;
+            resultado = (cantidad + " " + moneda + " son " + cantidad * 1.11 + " dolares");
         }
-    }*/
+        return resultado;
+    }
 }
