@@ -6,24 +6,19 @@ public class Ejercicio7_7 : MonoBehaviour
 {
     [SerializeField] int numero1;
     [SerializeField] int numero2;
+    int contador;
     void Start()
     {
-        while (numero1!=numero2)
+        if(numero2 > numero1)
         {
-            if (numero1 < numero2)
-            {
-                Debug.Log(numero1);
-                numero2--;
-            }
-            else if(numero2 < numero1)
-            {
-                Debug.Log(numero2);
-                numero1--;
-            }
-            else
-            {
-                Debug.Log("Los numeros son iguales");
-            }
+            contador = numero1;
+
         }
+        if (numero1 > numero2)
+        {
+            contador = numero2;
+
+        }
+        contador++;
     }
 }
