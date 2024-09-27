@@ -6,18 +6,27 @@ public class Ejercicio7_7 : MonoBehaviour
 {
     [SerializeField] int numero1;
     [SerializeField] int numero2;
-    int contador;
+    public int contador;
     void Start()
     {
-        if(numero2 > numero1)
+        
+        if (numero1<numero2)
         {
             contador = numero1;
-
+            while (numero1<numero2)
+            {
+                Debug.Log(numero1);
+                contador++;
+            }
         }
-        if (numero1 > numero2)
+        if (numero2 < numero1)
         {
             contador = numero2;
-
+            while (numero2 < numero1)
+            {
+                Debug.Log(numero2);
+                contador++;
+            }
         }
         contador++;
     }
